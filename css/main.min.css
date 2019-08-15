@@ -25,6 +25,6 @@ img[usemap],map area{outline:0}
 .bug1{visibility:hidden;width: 6%;position: absolute;top: 30%;left: 10%;}
 .bug2{visibility:hidden;width: 6%;position: absolute;top: 60%;left: 90%;}
 .clouds{width: 50%;height: 50%;}
-.decorator{left: -20%;position: absolute;}
+.decorator{left: -10%;position: absolute;}
 .wrapper{width:100%;height: 100%;position: absolute;margin:auto;left: 0;overflow:hidden;}
 .wrapper::after {width:448px;height:48px;content:"";position:absolute;}
