@@ -24,7 +24,7 @@ img[usemap],map area{outline:0}
 .bee{visibility:hidden;width: 6%;position: absolute;top: 90%;left: 15%;}
 .bug1{visibility:hidden;width: 6%;position: absolute;top: 30%;left: 10%;}
 .bug2{visibility:hidden;width: 6%;position: absolute;top: 60%;left: 90%;}
-.clouds{width: 50%;height: 50%;}
+.clouds{max-width: 1000;height: 100%; overflow: hidden}
 .decorator{left: -10%;position: absolute;}
 .wrapper{width:100%;height: 100%;position: absolute;margin:auto;left: 0;overflow:hidden;}
 .wrapper::after {width:448px;height:48px;content:"";position:absolute;}
