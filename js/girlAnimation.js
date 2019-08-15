@@ -1,10 +1,15 @@
 const cape = document.querySelector("#Cape");
 const hand = document.querySelector("#hand");
 const girl = document.querySelector("#girl");
+const clouds = document.querySelector("#Clouds");
+const ground = document.querySelectorAll(".decorator");
+
 const background = new TimelineMax({});
 const arm = new TimelineMax({paused:true, reversed: true});
-background.from(cape,1,{scaleY:0.75, repeat:-1, yoyo:true});
 
+background.from(cape,1,{scaleY:0.75, repeat:-1, yoyo:true});
+TweenMax.to(clouds, 5, {x: "200%", repeat:-1, delay:1}, -0.75);
+TweenMax.staggerTo(ground, 10, {x: "1000%", repeat:-1, delay:1,  ease: Power0.easeNone}, -0.75);
 
 
 girl.addEventListener("mouseenter",function () {
