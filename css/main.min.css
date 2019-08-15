@@ -1,0 +1,26 @@
+@font-face{font-family:"Minecraft";
+    src:url("../fonts/Minecraftia-Regular.ttf") format("truetype")}@font-face{font-family:"MyriadPro";
+    src:url("../fonts/MyriadPro-Regular.otf") format("truetype")}@font-face{font-family:"GameOver";
+    src:url("../fonts/game_over.ttf") format("truetype")}@font-face{font-family:"Edunline";
+    src:url("../fonts/edunline.ttf") format("truetype")}
+html{height:100%}
+body {
+    background:#000;
+    height:100%;
+    margin:0;
+    padding:0}
+a{text-decoration:none}
+a:active{text-decoration:none}
+a:hover{text-decoration:none}
+a:checked{text-decoration:none}
+img[usemap],map area{outline:0}
+.minecraft{font-family:'Minecraft'}
+.myriad{font-family:'Myriad'}
+.gameover{font-family:'GameOver'}
+.edunline{font-family:'Edunline'}
+.text-white{color:#fff}
+.mainContainer{margin:0 auto}
+.gsap{font-size: 130px;white-space:nowrap;position: relative;overflow: hidden;text-align: center;margin:0 auto}
+.bee{visibility:hidden;width: 6%;position: absolute;top: 90%;left: 15%;}
+.bug1{visibility:hidden;width: 6%;position: absolute;top: 30%;left: 10%;}
+.bug2{visibility:hidden;width: 6%;position: absolute;top: 60%;left: 90%;}
