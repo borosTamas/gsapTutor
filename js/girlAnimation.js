@@ -9,7 +9,7 @@ const arm = new TimelineMax({paused:true, reversed: true});
 
 background.from(cape,1,{scaleY:0.75, repeat:-1, yoyo:true});
 TweenMax.to(clouds, 5, {x: "200%", repeat:-1, delay:1}, -0.75);
-TweenMax.staggerTo(ground, 10, {x: "1000%", repeat:-1, delay:1,  ease: Power0.easeNone}, -0.75);
+TweenMax.staggerTo(ground, 10, {x: "1000%", repeat:-1, delay:2,  ease: Power0.easeNone}, -1);
 
 
 girl.addEventListener("mouseenter",function () {
